@@ -1,16 +1,17 @@
 ## Learn TypeScript
 
-### Start
+### Install
 ```sh
-pnpm run install
+pnpm install
 ```
 
-### Build
+### Build & start
 ```sh
 pnpm run build
+pnpm run start
 ```
 
 ### Test
 ```sh
-pnpm run start
+pnpm run test
 ```
