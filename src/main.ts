@@ -4,7 +4,10 @@
   to input.
  */
 export function padLeft(padding: number | string, input: string): string {
-  return '';
+  if (typeof padding === 'number') {
+    return ' '.repeat(padding) + input;
+  }
+  return padding + input;
 }
 
 function greet(person: string, date: Date) {
