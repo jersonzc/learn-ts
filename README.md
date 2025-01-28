@@ -8,6 +8,8 @@ pnpm install
 ### Build & Start
 ```sh
 pnpm run build
+```
+```sh
 pnpm run start
 ```
 
