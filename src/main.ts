@@ -13,5 +13,3 @@ export function padLeft(padding: number | string, input: string): string {
 function greet(person: string, date: Date) {
   console.log(`Hello ${person}, today is ${date.toDateString()}!`);
 }
-
-greet('Brendan', new Date());
